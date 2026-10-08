@@ -1,0 +1,7 @@
+Model,Specification,Income Coefficient,P-value
+Model 1: Full FE,Levels + GDP + Employment + RPP,-0.24146809169035113,0.4218569896047053
+Model 2: Refined FE,Levels + Real PI + RPP,1.3057344216369053,0.0
+Model 3: Log FE,Log PCE ~ Log Real PI,0.6866675631337398,0.0
+Model 4: Dynamic FE,Log PCE ~ Log Real PI + Lagged PCE,0.19632488835870526,5.9463933776982e-09
+Model 5: Per-Worker Log FE,Log PCE/worker ~ Log Real PI/worker,0.32027384093261496,8.283485009030755e-11
+Random Effects,Log PCE ~ Log Real PI,0.9826975796424726,0.0
