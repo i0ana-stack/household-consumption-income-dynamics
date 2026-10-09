@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project examines the relationship between **real personal income and household consumption** using annual panel data across U.S. entities from **2008 to 2024**.
 
@@ -24,7 +24,7 @@ The project was developed as part of my Master's research in **Data Analysis in 
 
 ---
 
-## 🎯 Research Objective
+## Research Objective
 
 The main research question is:
 
@@ -34,7 +34,7 @@ The analysis also examines how sensitive this relationship is to different econo
 
 ---
 
-## 📊 Project Snapshot
+## Project Snapshot
 
 | Aspect | Details |
 |---|---|
@@ -49,7 +49,7 @@ The analysis also examines how sensitive this relationship is to different econo
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 The analysis combines descriptive, exploratory, and econometric methods.
 
@@ -68,9 +68,9 @@ Clustered standard errors by entity are used in the Fixed Effects models.
 
 ---
 
-## 🔎 Key Findings
+## Key Findings
 
-### Income and consumption
+### Income and Consumption
 
 The main log-linear Fixed Effects model estimates an income-consumption elasticity of **0.6867**.
 
@@ -78,13 +78,13 @@ A 1% increase in real personal income is associated with approximately a **0.69%
 
 > This is a statistical association, not a causal estimate.
 
-### Consumption persistence
+### Consumption Persistence
 
 The dynamic Fixed Effects model estimates a lagged consumption coefficient of approximately **0.7894**, indicating strong persistence in consumption over time.
 
 After accounting for lagged consumption, the real personal income coefficient falls from **0.6867 to 0.1963**.
 
-### Robustness to variable scaling
+### Robustness to Variable Scaling
 
 The per-worker specification produces an elasticity of **0.3203**.
 
@@ -104,7 +104,7 @@ The Hausman test produces:
 
 The null hypothesis is rejected, providing evidence in favor of **Fixed Effects** for the main log-linear comparison.
 
-### High correlation among aggregate variables
+### High Correlation Among Aggregate Variables
 
 Several aggregate economic variables are extremely highly correlated:
 
@@ -118,7 +118,7 @@ This high correlation helps explain why coefficient estimates change substantial
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ### Real Personal Income vs. Consumption
 
@@ -138,7 +138,7 @@ This high correlation helps explain why coefficient estimates change substantial
 
 ---
 
-## 📋 Exported Results
+## Exported Results
 
 Selected analysis outputs are available as CSV files:
 
@@ -148,7 +148,7 @@ Selected analysis outputs are available as CSV files:
 
 ---
 
-## 🛠️ Tools
+## Tools
 
 - **Python**
 - **Pandas**
@@ -161,7 +161,7 @@ Selected analysis outputs are available as CSV files:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 household-consumption-income-dynamics/
